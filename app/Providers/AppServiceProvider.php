@@ -28,8 +28,10 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         Schema::defaultStringLength(191);
-        $appSetting = Appsetting::first();
-        View::share('appSetting', $appSetting);
+        if (Schema::hasTable('appsettings')) {
+            $appSetting = Appsetting::first();
+            View::share('appSetting', $appSetting);
+        }
        
     }
 }

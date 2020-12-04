@@ -22,7 +22,6 @@
         "softon/indipay": "^1.2",
         "spatie/laravel-permission": "^3.17",
         "tymon/jwt-auth": "^1.0",
-        "gloudemans/shoppingcart": "2.6.0",
         "yoeunes/notify": "^1.0"
     },
     "require-dev": {
