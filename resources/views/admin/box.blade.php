@@ -170,7 +170,7 @@ $required    	='';
                      @can('box-create')
 						<a class="btn btn-sm btn-outline-primary" href="{{route('add-box')}}"> <i class="fa fa-plus"></i> Add News Box</a>
 					 @endcan
-					 @can('assigne-box')
+					 @can('assign-box')
 						&nbsp;&nbsp;&nbsp;
 						 <a class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#assigneBoxs" id="assigneBoxId" data-id="" href="javascript:;" class="btn btn-sm btn-outline-primary" > <i class="fa fa-user"></i> Assign Box  To User</a>
 						 	&nbsp;&nbsp;&nbsp;<a href="{{ url()->previous() }}" class="btn btn-sm btn-outline-primary"  data-toggle="tooltip" data-placement="right" title="" data-original-title="Go To Back"><i class="fa fa-mail-reply"></i></a> 
