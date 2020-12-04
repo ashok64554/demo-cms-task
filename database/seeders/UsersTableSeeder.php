@@ -73,6 +73,9 @@ class UsersTableSeeder extends Seeder
         Permission::create(['name' => 'permission-edit', 'guard_name' => 'web']);
         Permission::create(['name' => 'permission-delete', 'guard_name' => 'web']);
         Permission::create(['name' => 'app-setting', 'guard_name' => 'web']);
+        Permission::create(['name' => 'manage-box', 'guard_name' => 'web']);
+        Permission::create(['name' => 'boxes', 'guard_name' => 'web']);
+        Permission::create(['name' => 'products', 'guard_name' => 'web']);
 
 
 
